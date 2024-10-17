@@ -1,3 +1,3 @@
-age = not True
+age = 18
 
-print(age)
+print(f"umur kamu {age} tahun")
