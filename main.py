@@ -1,3 +1,3 @@
 age = 18
-
-print(f"umur kamu {age} tahun")
+nama = "hikam"
+print(f"nama kamu {nama} \numur kamu {age} tahun")
