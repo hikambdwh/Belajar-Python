@@ -1,29 +1,27 @@
-# Latihan
+#LATIHAN IF ELSE STATEMENT
 
-# kalkulator sederhana
 print(20*"=")
-print("Kalkulator Sederhana")
-print(20*"=" + "\n")
+print("KALKULATOR")
+print(20*"=")
 
-angka_1 = float(input("masukan angka 1 = "))
-operator = input("operator (+,-,x,/) : ")
-angka_2 = float(input("masukan angka 2 = "))
+x = int(input("angka pertama: "))
+y = int(input("angka kedua  : "))
+operasi = input("operasi  : ")
 
-# percabangannya
-
-if operator == "+":
-	hasil = angka_1 + angka_2
-	print(f"hasilnya adalah {hasil}")
-elif operator == "-":
-	hasil = angka_1 - angka_2
-	print(f"hasilnya adalah {hasil}")
-elif operator == "x" or operator == "*":
-	hasil = angka_1 * angka_2
-	print(f"hasilnya adalah {hasil}")
-elif operator == "/":
-	hasil = angka_1 / angka_2
-	print(f"hasilnya adalah {hasil}")
+if operasi == "x":
+	hasil = x * y
+	print(f"{x} x {y} = {hasil}")
+elif operasi == "+":
+	hasil = x + y;
+	print(f"{x} + {y} = hasil")
+elif operasi == "-":
+	hasil = x - y
+	print(f"{x} - {y} = {hasil}")
+elif operasi == "/":
+	if y != 0:
+		hasil = x / y
+		print(f"{x} / {y} = {hasil:.2f}")
+	else:
+		print("angka kedua harus lebih dari 0")
 else:
-	print("masukan yang bener dong!, aku pusying")
-
-print("Akhir dari program, terima gajih!")
+	print("goblok anda")

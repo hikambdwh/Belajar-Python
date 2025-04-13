@@ -2,6 +2,9 @@
 
 # contoh generic
 # string
+format_str = f"aku berusia {12} tahun"
+print(format_str)
+
 nama = "ucup"
 format_str = f"hello {nama}"
 print(format_str)
@@ -46,8 +49,8 @@ print(format_minus)
 print(format_plus)
 
 # memformat persen
-persentase = 0.045
-format_persen = f"persen = {persentase:.2%}"
+persentase = 0.1
+format_persen = f"persen = {persentase:.0%}"
 
 print(format_persen)
 

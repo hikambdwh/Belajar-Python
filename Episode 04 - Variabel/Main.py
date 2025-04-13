@@ -4,11 +4,13 @@
 a = 10
 x = 5
 panjang = 1000
+panjangBool = bool(panjang)
 
 # pemanggilan pertama
 print("Nilai a = ", a)
 print("Nilai x = ", x)
 print("Nilai panjang = ", panjang)
+print(f"panjang {panjangBool}")
 
 # penamaan
 nilai_y = 15 # dengan menggunakan underscore
