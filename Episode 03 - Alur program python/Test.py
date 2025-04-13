@@ -23,7 +23,7 @@ screen_size = screen_width * screen_height
 
 A, B = 0, 0
 
-theta_spacing = 10
+theta_spacing = 11
 phi_spacing = 3
 
 chars = ".,-~:;=!*#$@"
