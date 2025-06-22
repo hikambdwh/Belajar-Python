@@ -64,10 +64,6 @@ print(format_string)
 # format angka lain (binary, octal, hexadecimal)
 
 angka = 255
-format_binary = f"binary = {bin(angka)}"
-format_octal = f"octal = {oct(angka)}"
-format_hex = f"hex = {hex(angka)}"
-
-print(format_binary)
-print(format_octal)
-print(format_hex)
+print(f"biner: {bin(angka)}")
+print(f"oktal: {oct(angka)}")
+print(f"hexadesimal: {hex(angka)}")
