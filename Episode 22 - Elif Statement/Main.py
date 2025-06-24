@@ -14,7 +14,7 @@ elif nama == "mario": # kondisi 3
 elif not("H" in nama) and "M" in nama:
 	print(f"halo {nama}")
 
-else:
+else: 
 	print("au ah gak kenal!!!") # aksi false
 
 print("ini adalah akhir dari program")

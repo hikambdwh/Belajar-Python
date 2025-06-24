@@ -25,7 +25,7 @@ elif operasi == "/":
 	else:
 		print("angka kedua harus lebih dari 0")
 else:
-	print("goblok anda")
+	print("goblok anda") 
 
 
 print(f"hasil dari akar 144 adalah {mtk.sqrt(144):.0f} dan phi bernilai {mtk.pi:.2f}")
