@@ -1,4 +1,5 @@
 #LATIHAN IF ELSE STATEMENT
+import math as mtk
 
 print(20*"=")
 print("KALKULATOR")
@@ -25,3 +26,6 @@ elif operasi == "/":
 		print("angka kedua harus lebih dari 0")
 else:
 	print("goblok anda")
+
+
+print(f"hasil dari akar 144 adalah {mtk.sqrt(144):.0f} dan phi bernilai {mtk.pi:.2f}")

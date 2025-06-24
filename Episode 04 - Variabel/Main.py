@@ -24,4 +24,4 @@ print("Nilai a = ", a)
 
 # assignment indirect
 b = a
-print("Nilai b = ", b)
+print("Nilai b = ", )

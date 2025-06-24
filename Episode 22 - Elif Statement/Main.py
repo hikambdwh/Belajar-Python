@@ -4,12 +4,16 @@ nama = input("Nama kamyu siapa? ")
 
 if nama == "ucup": # kondisi 1
 	print("Hai ganteeeeng beuds!") # aksi true 1
+	
 elif nama == "otong": # kondisi 2
 	print("Hai si kece bangeeeets!!") # aksi true 2
+
 elif nama == "mario": # kondisi 3
 	print("Hai humooooreeeesh!") # aksi true 3
-elif "H" in nama and "M" in nama:
+
+elif not("H" in nama) and "M" in nama:
 	print(f"halo {nama}")
+
 else:
 	print("au ah gak kenal!!!") # aksi false
 

@@ -17,3 +17,9 @@ print(time.time() - start_time, "detik")
 # yang namanya bytecode
 # cara mengcompile, buka terminal dan tuliskan
 # python -m py_compile Main.py
+
+
+a = 4
+b = 5
+
+print("hasil: " + str(a+b))
