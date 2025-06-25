@@ -38,9 +38,23 @@ for huruf in data_str:
 print("akhir dari program 4 \n")
 
 
+for i in range(0, 8, 1):
+    for j in range(0, i, 1):
+        print("*", end="")  # mencetak di baris yang sama
+    print()  # ganti baris
 
 
-
-
-
-
+for i in range(7,0, -1):
+	for j in range(i-1,0,-1):
+		print(" ", end="")
+	for k in range(8,i,-1):
+		print("*", end="")
+	print()
+	
+bintang = 7
+for i in range(0,bintang):
+	for j in range(0,i):
+		print(" ", end="")
+	for k in range(bintang,i,-1):
+		print("*", end="")
+	print()
