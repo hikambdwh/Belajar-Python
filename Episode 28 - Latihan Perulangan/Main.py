@@ -52,7 +52,7 @@ count = 1
 spasi = int(sisi/2)
 
 while True:
-	if (count%2):
+	if (count%2 == 1):
 		# Print jika ganjil
 		print(" "*spasi,"+"*count)
 		spasi -= 1
@@ -66,7 +66,26 @@ while True:
 	if count > sisi:
 		break
 
-print("akhier while")
+titik = 10
+space = 0
+
+while 1:
+	if titik % 2 == 0:
+		print(" "*space,"+"*(titik+1))
+		space +=1
+		titik -=1
+	else:
+		titik -=1
+		continue
+
+	if titik == -1:
+		print("halo")
+		break
+
+print("kerja bagus")
+
+
+
 
 
 

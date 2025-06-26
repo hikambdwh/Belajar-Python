@@ -26,6 +26,8 @@ print(data_list)
 list_pake_for = [i**2 for i in range(0,10)]
 print(list_pake_for)
 
+print(len(list_pake_for), "\n")
+
 # membuat list pake for pake if
 list_pake_for_if = [i for i in range(0,10) if i != 5]
 print(list_pake_for_if)
