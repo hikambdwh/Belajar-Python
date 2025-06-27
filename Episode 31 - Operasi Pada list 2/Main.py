@@ -18,7 +18,7 @@ print(f"data = {data}")
 
 index_dudung = data.index("Dudung")
 index_ujang = data.index("Ujang")
-print(f"index si Dudung = {index_dudung}")
+print(f"index si Dudung = {data.index("Dudung")}")
 print(f"index si Ujang = {index_ujang}")
 
 # mengurutkan list

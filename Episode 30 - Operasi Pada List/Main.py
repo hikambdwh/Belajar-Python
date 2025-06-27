@@ -42,7 +42,11 @@ print(f"data rubah = \n{data}")
 # meremove data
 
 data.remove("Ujang")
-print(f"data remove = \n{data}")
+print(f"data remove = \n{data}, jumlah nama = {len(data)}")
+
+for i in range(0,len(data)):
+    print(data[i])
+    
 # data.remove("usep") akan error karena huruf harus sesuai yaitu "Usep"
 
 # meremove data paling belakang

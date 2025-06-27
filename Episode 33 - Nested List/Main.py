@@ -8,6 +8,7 @@ print(f"list biasa = {data_list_biasa}")
 list_2D = [data_0,data_1,6,7]
 
 print(f"list 2D = {list_2D}")
+print(f"data ke-0 = {list_2D[0]}")
 
 # contoh penggunaan
 
