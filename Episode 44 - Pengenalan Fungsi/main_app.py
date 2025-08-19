@@ -16,3 +16,12 @@ def fungsi():
     print("Ini adalah fungsi")
 
 fungsi()
+
+def matematika(sisi, tinggi):
+    hasil = (sisi * tinggi) / 2
+
+    return hasil
+
+
+
+print(f"{matematika(10,5):.0f}")

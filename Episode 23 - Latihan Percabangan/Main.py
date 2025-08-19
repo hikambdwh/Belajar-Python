@@ -15,7 +15,7 @@ if operasi == "x":
 
 elif operasi == "+":
 	hasil = x + y;
-	print(f"{x} + {y} = hasil")
+	print(f"{x} + {y} = {hasil}")
 
 elif operasi == "-":
 	hasil = x - y

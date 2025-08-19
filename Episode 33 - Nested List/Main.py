@@ -34,3 +34,4 @@ peserta_0[0] = "michael"
 print(f"peserta = {list_copy}")
 print(f"peserta = {list_peserta}")
 
+

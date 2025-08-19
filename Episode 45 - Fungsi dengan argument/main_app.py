@@ -32,3 +32,5 @@ def say_hi(list_peserta):
 anggota_boyband = ["Ucup","Otong","Dudung"]
 
 say_hi(anggota_boyband)
+
+
