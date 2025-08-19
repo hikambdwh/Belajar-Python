@@ -12,7 +12,8 @@ while True:
 	print(list_buku)
 	print(list_buku[0])
 	print("\n\n","="*10,"Data Buku","="*10)
-	for index,buku in enumerate(list_buku):
+	
+	for index, buku in enumerate(list_buku):
 		print(f"{index+1} | {buku[0]} | {buku[1]} ({buku[2]})")
 	
 	print("\n\n","="*20)

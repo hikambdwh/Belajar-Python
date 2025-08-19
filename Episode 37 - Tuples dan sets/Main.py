@@ -13,7 +13,17 @@ print(data_tuples[1])
 # data_tuples.append(1)
 
 # sets (himpunan)
-data_sets = {10,4,3,2,4,7,6,5}
-print(data_sets)
+sets1 = {1,3,5,4,10}
+sets2 = {1,4,2,5,9}
 
-print(data_sets[0])
+# Union
+print(sets1.union(sets2))
+print(len(sets1.union(sets2)))
+
+# Difference
+print(sets1.difference(sets2))
+print(sets2.difference(sets1))
+print(sets1.symmetric_difference(sets2))
+
+# Intersection
+print(sets1.intersection(sets2))

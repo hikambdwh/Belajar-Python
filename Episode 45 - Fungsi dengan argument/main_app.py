@@ -26,8 +26,8 @@ tambah(100000,1)
 def say_hi(list_peserta):
     '''fungsi say hi'''
     data_peserta = list_peserta.copy()
-    for peserta in data_peserta:
-        print(f"Yang terhormat {peserta}")
+    for peserta in range(0,len(data_peserta)):
+        print(f"Yang terhormat {data_peserta[peserta]}")
 
 anggota_boyband = ["Ucup","Otong","Dudung"]
 
