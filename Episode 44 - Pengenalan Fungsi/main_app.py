@@ -23,5 +23,6 @@ def matematika(sisi, tinggi):
     return hasil
 
 
-
-print(f"{matematika(10,5):.0f}")
+sisi = int(input("sisi:"))
+tinggi = int(input("tinggi:"))
+print(f"{matematika(sisi,tinggi):.0f}")
