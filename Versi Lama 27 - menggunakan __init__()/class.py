@@ -15,6 +15,7 @@ class Mahasiswa():
 # main programnya
 
 otong = Mahasiswa("otong surotong", 13317001)
+print(otong.__dict__)
 #ucup = Mahasiswa()
 
 print(otong.nama)
