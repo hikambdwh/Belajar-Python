@@ -45,3 +45,10 @@ print(f"Hasil tambah = {k}")
 print(f"Hasil kurang = {l}")
 print(f"Hasil kali = {m}")
 print(f"Hasil bagi = {n}")
+
+# LAMBDA FUNCTION
+sisi = 5
+tinggi = 10
+luas_segitiga = lambda sisi,tinggi : (sisi*tinggi)/2
+
+print(f"\n{luas_segitiga(sisi,tinggi):.0f}")
