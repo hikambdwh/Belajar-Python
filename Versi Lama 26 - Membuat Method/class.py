@@ -3,7 +3,7 @@ class Mahasiswa():
 	nama = 'nama'
 
 	def belajar(self, kondisi):
-		print(self.nama,'sedang belajar', kondisi)
+		print(f"{self.nama} sedang belajar {kondisi}")
 
 	def tidur(self):
 		print(self.nama,'tidur di kelas')

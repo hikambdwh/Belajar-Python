@@ -1,6 +1,6 @@
 #class
 class Mahasiswa():
-	nama = 'nama'
+	
 
 	def __init__(self, input_nama, input_nim):
 		self.nama = input_nama
