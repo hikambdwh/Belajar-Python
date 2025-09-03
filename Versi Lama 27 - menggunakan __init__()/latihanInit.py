@@ -19,7 +19,7 @@ class mobil(kendaraan):
 def info(transportasi):
     print(f"""
         Nama: {transportasi.nama}
-        warna: {transportasi.warna}        
+        warna: {transportasi.warna}         
         """)
 
 

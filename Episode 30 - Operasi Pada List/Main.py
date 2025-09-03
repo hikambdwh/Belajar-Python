@@ -21,9 +21,11 @@ print(f"panjang data = {panjang_data}")
 
 # menambahkan item pada list sesuai posisi
 print(f"data sebelum ditambah = \n{data}")
+print(len(data))
 
-data.insert(1,"Asep")
+data.insert(0,"Asep")
 print(f"data sesudah ditambah = \n{data}")
+print(len(data))
 
 # menambah di akhir list
 data.append("Jajang")
