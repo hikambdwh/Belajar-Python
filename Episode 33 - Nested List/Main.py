@@ -19,7 +19,7 @@ peserta_2 = ["dedeh",50,"Wanita"]
 list_peserta = [peserta_0,peserta_1,peserta_2]
 
 print(f"peserta = {list_peserta}")
-
+print(f"peserta: {list_peserta[1][0]}")
 for peserta in list_peserta:
 	print(f"nama\t: {peserta[0]}")
 	print(f"umur\t: {peserta[1]}")
