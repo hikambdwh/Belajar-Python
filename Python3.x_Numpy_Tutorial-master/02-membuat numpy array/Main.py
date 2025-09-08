@@ -6,7 +6,7 @@ b = np.array([1.5 , 2.5, 5, 6, 7])
 
 # membuat vector dengan range
 c = np.arange(1,10,2)
-
+print(c)
 # membuat linspace
 d = np.linspace(1,10,4)
 
